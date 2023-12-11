@@ -1,0 +1,37 @@
+.hero{
+    margin-top: 50px;
+    text-align: center;
+}
+.untext {
+    display: none;
+}
+.texts {
+    display: block;
+}
+.learmore_btn{
+    border: none;
+    background-color: antiquewhite;
+    color: blue;
+    border-radius: 10px;
+    padding: 5px;
+}
+.learmore_btn:hover {
+    cursor: pointer;
+}
+.button {
+    padding: 8px 34px;
+    border-radius: 10px;
+    border: 1px solid rgb(244, 152, 31);
+    background-color: rgb(253, 249, 245);
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+.button:hover {
+    cursor: pointer;   
+    transform: scale(1.1);
+}
+.button:active {
+    transform: scale(0.9);
+    background-color: antiquewhite;
+}
